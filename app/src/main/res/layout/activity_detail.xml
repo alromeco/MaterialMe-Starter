@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/sportsImageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/titleDetail"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/sportsImageDetail"
+        android:padding="16dp"
+        android:text="@string/title_placeholder"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:id="@+id/newsTitleDetail"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sportsImageDetail"
+        android:padding="16dp"
+        android:text="@string/news_placeholder"
+        android:textColor="?android:textColorSecondary" />
+
+    <TextView
+        android:id="@+id/subTitleDetail"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newsTitleDetail"
+        android:padding="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae libero faucibus, elementum mi sit amet, tincidunt arcu. Donec ac mi vel velit aliquet ullamcorper. Aliquam erat volutpat. Suspendisse sed tristique mauris, et sagittis magna. Morbi congue, tellus venenatis rhoncus pharetra, nunc arcu vehicula neque, et condimentum enim justo sit amet lorem. Fusce luctus, elit quis pellentesque porttitor, urna magna pharetra sem, a tristique risus massa id nisi. Phasellus at justo vitae mi ornare consectetur sit amet eu libero. Praesent imperdiet sollicitudin odio, quis tempus nisl semper et. In non maximus urna, sit amet convallis ex. Nullam pellentesque diam at pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed diam id ipsum venenatis suscipit. Proin a mattis nulla, vitae maximus odio. Aenean semper commodo purus a congue. Quisque consectetur, velit eget accumsan molestie, felis eros commodo arcu, non laoreet erat dui sed dolor. Vivamus non turpis at nisl pretium accumsan et vel odio.
+
+Suspendisse et massa enim. Mauris at mattis magna. Nam laoreet velit at pellentesque ullamcorper. Morbi in ex bibendum velit dapibus sagittis sit amet eu lectus. Aenean maximus nisi id iaculis auctor. Pellentesque volutpat congue enim id sollicitudin. Donec suscipit urna nec scelerisque tristique. Curabitur volutpat faucibus ipsum, eget tristique diam commodo sed. Aenean ullamcorper iaculis lorem quis convallis. Mauris eget erat sed nisi mattis tristique. Nam sed congue augue. Sed blandit dui at imperdiet fermentum.
+
+Nam quis tempor nulla. Pellentesque feugiat arcu nisl, eu ornare urna porta sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur aliquam eros, vestibulum maximus eros sagittis sit amet. Sed volutpat neque ut ante fringilla ullamcorper. Proin semper sit amet ligula fringilla varius. Fusce luctus sapien id ultricies consequat. Etiam aliquet ante quis auctor elementum. Phasellus in metus sed odio tempus dignissim eget at sapien. Nullam ut leo elementum, bibendum lectus et, laoreet leo. Suspendisse lacinia dignissim orci et mollis. Aenean tincidunt ante et blandit dignissim." />
+
+</RelativeLayout>
+</ScrollView>
